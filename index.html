@@ -2,18 +2,26 @@
 
 <html>
 
-<script src="main.js"></script>
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-<title>A Test.</title>
+    <title>A Test.</title>
+</head>
 
 <body>
-    <p>You who wish to raise the dead,<br />
-        A tome of guidance lies ahead.<br />
-        But if you want the book to open,<br />
-        The ancient chant, then, must be spoken.
-    </p>
+    <div class="center">
+        <p id="riddle">You who wish to raise the dead,<br />
+            A tome of guidance lies ahead.<br />
+            But if you want the book to open,<br />
+            The ancient chant, then, must be spoken.
+        </p>
 
-    <input type="text" id="opening_password_input" oninput="checkOpeningPassword();"></input>
+        <input type="text" id="opening_password_input" oninput="checkOpeningPassword();" placeholder="CHANT"></input>
+
+        <img src="assets/scythe_from_garden_set.png" id="scythe">
+    </div>
+
 </body>
 
 </html>
