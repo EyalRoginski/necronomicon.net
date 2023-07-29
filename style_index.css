@@ -1,0 +1,42 @@
+@font-face {
+    font-family: CaslonAntique;
+    src: url(fonts/CaslonAntique.ttf);
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: BlackwoodCastle;
+    font-weight: normal;
+    font-size: 40px;
+
+}
+
+p {
+    line-height: 1.6;
+}
+
+input {
+    width: 40%;
+    font-size: inherit;
+    text-align: center;
+    font-family: BlackwoodCastle;
+    background-color: #DEC4A3;
+}
+
+img {
+    width: 25%;
+    visibility: hidden;
+    position: absolute;
+    transform-origin: 85% 47%;
+}

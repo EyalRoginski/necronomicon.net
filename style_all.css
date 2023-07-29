@@ -1,0 +1,28 @@
+@font-face {
+    font-family: CaslonAntique;
+    src: url(fonts/CaslonAntique-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: CaslonAntique;
+    src: url(fonts/CaslonAntique-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CaslonAntique;
+    src: url(fonts/CaslonAntique-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: BlackwoodCastle;
+    src: url(fonts/Blackwood_Castle.ttf);
+}
+
+body {
+    background-image: url(assets/parchment_background.jpg);
+    background-size: 200%;
+}

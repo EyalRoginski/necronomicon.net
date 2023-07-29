@@ -1,0 +1,44 @@
+.main {
+    width: 40%;
+    margin: auto;
+    /*border: 3px green solid;*/
+    text-align: center;
+
+    font-family: BlackwoodCastle;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: auto;
+    font-size: 30px;
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#nile-map {
+    margin-left: 30px;
+    width: 500%;
+}
+
+#button-combo {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.song {
+    text-align: center;
+}
